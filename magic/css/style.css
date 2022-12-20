@@ -1,0 +1,7 @@
+body {
+    background-color: #f200a4;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    min-height: 100vh;
+}
