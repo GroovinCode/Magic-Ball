@@ -1,13 +1,13 @@
 // create elements
 const question = document.createElement('input');
-const getanswer = document.createElement('button');
+const getAnswer = document.createElement('button');
+const answer = document.createElement('image');
 question.value = 'Ask Me Anything';
-getanswer.innerHTML = 'Get Answer';
+getAnswer.setAttribute('id', 'answerButton');
+getAnswer.setAttribute('type', 'button');
+getAnswer.textContent = 'Get Answer';
 
 // place elements on the page
 document.body.appendChild(question);
-document.body.appendChild(getanswer);
-document.body.appendChild(line);
+document.body.appendChild(getAnswer);
 
-// add text
-getanswer.innerHTML = 'Get Answer for me please';
