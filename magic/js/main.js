@@ -8,6 +8,7 @@ question.placeholder = 'Ask Me A Question';
 getAnswer.id = 'answerButton';
 getAnswer.type = 'button';
 getAnswer.textContent = 'Get Answer';
+getAnswer.addEventListener('click', magicAnswer);
 answer.id = 'answerOutput';
 answer.setAttribute('src', '/magic/images/magic8ball_start.png');
 
@@ -15,3 +16,7 @@ answer.setAttribute('src', '/magic/images/magic8ball_start.png');
 document.body.appendChild(question);
 document.body.appendChild(getAnswer);
 document.body.appendChild(answer);
+
+function magicAnswer() {
+    
+}
