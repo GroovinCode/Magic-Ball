@@ -18,5 +18,7 @@ document.body.appendChild(getAnswer);
 document.body.appendChild(answer);
 
 function magicAnswer() {
-    
+  let i = question.value == '' ? 'extra' : Math.floor(Math.random() * (21-1) + 1); 
+  question.value = '';
+  return answer.setAttribute('src', `/magic/images/magic8ball_${i}.png`);
 }
