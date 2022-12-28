@@ -43,7 +43,10 @@ body {
 
 #answerOutput{
     grid-area: e;
-    width: 30em;
-    height: 30em;
-    margin-left: 20%;
+    position: relative;
+    max-width: 900px;
+    max-height: 900px;
+    width: 50%;
+    height: width;
+    margin-left: 14%;
 }
